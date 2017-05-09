@@ -11,8 +11,13 @@ import XCTest
 
 class ContinuousIntegrationExampleTests: XCTestCase {
     
+    var vc: ViewController!
+    
     override func setUp() {
         super.setUp()
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        vc = storyboard.instantiateInitialViewController() as! ViewController
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
     
@@ -21,16 +26,18 @@ class ContinuousIntegrationExampleTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testInverseString() {
+        let p = vc.invertString(text: "String for inverse")
+        XCTAssert(p == "esrevni rof gnirtS")
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    func testLabel() {
+        let _ = vc.view
+        let p = vc.invertString(text: "String for inverse")
+        vc.updateLabel(text: p)
+        
+        XCTAssert(vc.messageLabel.text == "Inverse String: esrevni rof gnirtS")
     }
+    
     
 }
