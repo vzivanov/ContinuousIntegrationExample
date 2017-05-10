@@ -22,6 +22,7 @@ class ViewController: UIViewController {
         inputTextField.layer.cornerRadius = 5
         inputTextField.setLeftPaddingPoints(10)
         
+        
         invertButton.layer.cornerRadius = 5
         
     }
