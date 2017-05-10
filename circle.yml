@@ -1,16 +1,6 @@
 machine:
   xcode:
-    version: "8.2.1"
+    version: "8.1"
 test:
   override:
-    - set -o pipefail &&
-      xcodebuild
-        CODE_SIGNING_REQUIRED=NO
-        CODE_SIGN_IDENTITY=
-        PROVISIONING_PROFILE=
-        -sdk iphonesimulator
-        -destination 'platform=iOS Simulator,OS=10.2,name=iPhone 7'
-        -scheme "ContinuousIntegrationExample"
-        clean build test |
-      tee $CIRCLE_ARTIFACTS/xcode_raw.log |
-      xcpretty --color --report junit --output $CIRCLE_TEST_REPORTS/xcode/results.xml
+    - bundle exec fastlane test
