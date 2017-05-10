@@ -15,4 +15,4 @@ deployment:
   beta_distribution:
     branch: master
     commands:
-      - fastlane gym
+      - fastlane beta
