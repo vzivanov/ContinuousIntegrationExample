@@ -14,10 +14,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var messageLabel: UILabel!
     @IBOutlet weak var invertButton: UIButton!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         
         inputTextField.layer.borderColor = UIColor.darkGray.cgColor
         inputTextField.layer.borderWidth = 1
@@ -25,7 +23,6 @@ class ViewController: UIViewController {
         inputTextField.setLeftPaddingPoints(10)
         
         invertButton.layer.cornerRadius = 5
-        
         
     }
 
@@ -41,6 +38,7 @@ class ViewController: UIViewController {
         }
     }
     
+    //Comment added just for testing purpose
     func invertString(text: String) -> String{
         return String(text.characters.reversed())
     }
