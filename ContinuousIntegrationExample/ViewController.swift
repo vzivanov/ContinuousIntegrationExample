@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
         inputTextField.layer.borderColor = UIColor.darkGray.cgColor
         inputTextField.layer.borderWidth = 1
         inputTextField.layer.cornerRadius = 5
