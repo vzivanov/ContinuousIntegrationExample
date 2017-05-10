@@ -17,7 +17,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         
         inputTextField.layer.borderColor = UIColor.darkGray.cgColor
         inputTextField.layer.borderWidth = 1
