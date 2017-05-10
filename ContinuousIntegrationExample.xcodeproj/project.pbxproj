@@ -194,7 +194,7 @@
 					AD5A6EDF1EC1A9D1007526EA = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = PH7K4ADL7R;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					AD5A6EF31EC1A9D1007526EA = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -417,16 +417,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Execom Doo (PH7K4ADL7R)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = PH7K4ADL7R;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ContinuousIntegrationExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = execom.ContinuousIntegrationExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "d5dc83dc-1eca-4ac6-8c1a-d343cf4f5007";
-				PROVISIONING_PROFILE_SPECIFIER = CIProduction;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -435,16 +435,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = PH7K4ADL7R;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ContinuousIntegrationExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = execom.ContinuousIntegrationExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "d5dc83dc-1eca-4ac6-8c1a-d343cf4f5007";
-				PROVISIONING_PROFILE_SPECIFIER = CIProduction;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
