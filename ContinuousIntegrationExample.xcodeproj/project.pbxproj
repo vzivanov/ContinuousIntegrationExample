@@ -419,6 +419,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PH7K4ADL7R;
 				INFOPLIST_FILE = ContinuousIntegrationExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = execom.ContinuousIntegrationExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -432,6 +433,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PH7K4ADL7R;
 				INFOPLIST_FILE = ContinuousIntegrationExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = execom.ContinuousIntegrationExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +518,7 @@
 				AD5A6F0A1EC1A9D1007526EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD5A6F0B1EC1A9D1007526EA /* Build configuration list for PBXNativeTarget "ContinuousIntegrationExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +527,7 @@
 				AD5A6F0D1EC1A9D1007526EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD5A6F0E1EC1A9D1007526EA /* Build configuration list for PBXNativeTarget "ContinuousIntegrationExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +536,7 @@
 				AD5A6F101EC1A9D1007526EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
