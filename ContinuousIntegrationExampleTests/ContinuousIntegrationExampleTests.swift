@@ -33,7 +33,7 @@ class ContinuousIntegrationExampleTests: XCTestCase {
     
     func testLabel() {
         let _ = vc.view
-        let p = vc.invertString(text: "String for inverse ")
+        let p = vc.invertString(text: "String for inverse")
         vc.updateLabel(text: p)
         
         XCTAssert(vc.messageLabel.text == "Inverse String: esrevni rof gnirtS")
