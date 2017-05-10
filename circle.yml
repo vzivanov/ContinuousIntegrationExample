@@ -1,6 +1,8 @@
 machine:
   xcode:
     version: "8.1"
+  environment:
+    GYM_CODE_SIGNING_IDENTITY: "iPhone Distribution: Execom Doo (PH7K4ADL7R)"
 dependencies:
   override:
     - bundle check --path=vendor/bundle || bundle install --path=vendor/bundle --jobs=4 --retry=3 --without development
@@ -9,3 +11,8 @@ dependencies:
 test:
   override:
     - bundle exec fastlane test
+deployment:
+  beta_distribution:
+    branch: master
+    commands:
+      - fastlane beta
