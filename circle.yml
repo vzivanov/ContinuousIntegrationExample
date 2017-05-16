@@ -11,4 +11,9 @@ dependencies:
 test:
   override:
     - bundle exec fastlane test
+deployment:
+  beta_distribution:
+    branch: master
+    commands:
+      - fastlane gym
 

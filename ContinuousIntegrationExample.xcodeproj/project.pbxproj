@@ -419,7 +419,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 6;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = PH7K4ADL7R;
 				INFOPLIST_FILE = ContinuousIntegrationExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -438,7 +438,7 @@
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 6;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = PH7K4ADL7R;
 				INFOPLIST_FILE = ContinuousIntegrationExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
