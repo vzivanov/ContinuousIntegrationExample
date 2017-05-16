@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <testsuites name='ContinuousIntegrationExampleUITests.xctest' tests='3' failures='0'>
   <testsuite name='ContinuousIntegrationExampleTests.ContinuousIntegrationExampleTests' tests='2' failures='0'>
-    <testcase classname='ContinuousIntegrationExampleTests.ContinuousIntegrationExampleTests' name='testInverseString' time='0.003'/>
-    <testcase classname='ContinuousIntegrationExampleTests.ContinuousIntegrationExampleTests' name='testLabel' time='0.003'/>
+    <testcase classname='ContinuousIntegrationExampleTests.ContinuousIntegrationExampleTests' name='testInverseString' time='0.016'/>
+    <testcase classname='ContinuousIntegrationExampleTests.ContinuousIntegrationExampleTests' name='testLabel' time='0.006'/>
   </testsuite>
   <testsuite name='ContinuousIntegrationExampleUITests.ContinuousIntegrationExampleUITests' tests='1' failures='0'>
-    <testcase classname='ContinuousIntegrationExampleUITests.ContinuousIntegrationExampleUITests' name='testExample' time='7.041'/>
+    <testcase classname='ContinuousIntegrationExampleUITests.ContinuousIntegrationExampleUITests' name='testExample' time='7.232'/>
   </testsuite>
 </testsuites>
